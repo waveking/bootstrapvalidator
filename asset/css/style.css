@@ -198,6 +198,13 @@ h4 {
 .doc-footer p {
   margin-bottom: 15px;
 }
+.doc-footer ul {
+  list-style: none;
+}
+.doc-footer ul li {
+  display: inline-block;
+  padding: 0 2px;
+}
 .doc-footer .btn {
   background: #3498db;
   color: #fff;

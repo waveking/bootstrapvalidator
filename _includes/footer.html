@@ -1,15 +1,35 @@
 <footer class="doc-footer">
     <div class="container">
         <p>
-            <a class="btn" href="{{ site.repository.source }}/issues">Report an issue</a>
+            {% if page.permalink != "/download/" %}
+            <a class="btn" href="/download/">Download</a>
+            {% endif %}
+            <a class="btn" href="{{ site.repository.source }}/issues">Report bug</a>
         </p>
         <p>
-            &copy; 2013 - 2014 <a href="http://twitter.com/nghuuphuoc">Nguyen Huu Phuoc</a>. All rights reserved<br>
+            &copy; 2013 - 2014 <a href="http://twitter.com/nghuuphuoc">Nguyen Huu Phuoc</a>. All rights reserved.<br/>
+            Handcrafted with <span class="doc-heart"><i class="fa fa-heart"></i></span> and a lot of <i class="fa fa-coffee"></i>
         </p>
-        <p>Handcrafted with <span class="doc-heart"><i class="fa fa-heart"></i></span> and a lot of <i class="fa fa-coffee"></i></p>
+        <ul>
+            <li><a href="/getting-started/">Getting started</a></li>
+            <li>&middot;</li>
+            <li><a href="/settings/">Settings</a></li>
+            <li>&middot;</li>
+            <li><a href="/validators/">Validators</a></li>
+            <li>&middot;</li>
+            <li><a href="/api/">API</a></li>
+            <li>&middot;</li>
+            <li><a href="/examples/">Examples</a></li>
+            <li>&middot;</li>
+            <li><a href="/developing/">Developing</a></li>
+            <li>&middot;</li>
+            <li><a href="/news/">News</a></li>
+            <li>&middot;</li>
+            <li><a href="/license/">License</a></li>
+        </ul>
     </div>
 
-    {% if page.permalink != "/" and page.permalink != "/download/" and page.permalink != "/license/" %}
+    {% if page.permalink != "/download/" and page.permalink != "/license/" %}
     {% include ad.html %}
     {% endif %}
 </footer>
