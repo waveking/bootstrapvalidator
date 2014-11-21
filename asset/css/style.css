@@ -291,6 +291,16 @@ h4 {
   margin: 0 auto;
   width: 75%;
 }
+.doc-home-feature .btn {
+  background: #3498db;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.doc-home-feature .btn:hover {
+  color: #fff;
+}
 .doc-home-contributor {
   background-color: #111;
   padding-bottom: 30px;
