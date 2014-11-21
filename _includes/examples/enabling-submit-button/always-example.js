@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#enableButtonForm')
+    $('#alwaysEnableButtonForm')
         .bootstrapValidator({
             feedbackIcons: {
                 valid: 'glyphicon glyphicon-ok',
