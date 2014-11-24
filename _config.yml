@@ -29,10 +29,10 @@ license:
     sellfy_id:        eQiZ
 current_version:      0.5.3
 released_date:        2014.11.05
-github_watchers:      1376
-github_forks:         755
-github_downloads:     86,000
-twitter_followers:    199
+github_watchers:      1425
+github_forks:         840
+github_downloads:     87,000
+twitter_followers:    205
 download:
   dist:               https://github.com/nghuuphuoc/bootstrapvalidator/releases/download/v0.5.3/bootstrapvalidator-dist-0.5.3.zip
   tag:                https://github.com/nghuuphuoc/bootstrapvalidator/archive/v0.5.3.zip
