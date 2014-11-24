@@ -20,13 +20,6 @@ $(document).ready(function() {
                             message: 'The description is required'
                         }
                     }
-                },
-                priority: {
-                    validators: {
-                        notEmpty: {
-                            message: 'The priority is required'
-                        }
-                    }
                 }
             }
         })
