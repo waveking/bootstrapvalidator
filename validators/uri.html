@@ -183,6 +183,7 @@ related:
                             <li class="active"><a href="#uri-form-tab" data-toggle="tab">Try it</a></li>
                             <li><a href="#uri-html-tab" data-toggle="tab">HTML</a></li>
                             <li><a href="#uri-js-tab" data-toggle="tab">JS</a></li>
+                            <li><a href="#uri-declarative-tab" data-toggle="tab">Declarative usage</a></li>
                         </ul>
 
                         <div class="tab-content">
@@ -191,15 +192,25 @@ related:
                             </div>
 
                             <div class="tab-pane" id="uri-html-tab">
-                            {% highlight html %}
-                            {% include validators/uri/basic-example.html %}
-                            {% endhighlight %}
+{% highlight html %}
+{% include validators/uri/basic-example.html %}
+{% endhighlight %}
                             </div>
 
                             <div class="tab-pane" id="uri-js-tab">
-                            {% highlight javascript %}
-                            {% include validators/uri/basic-example.js %}
-                            {% endhighlight %}
+{% highlight javascript %}
+{% include validators/uri/basic-example.js %}
+{% endhighlight %}
+                            </div>
+
+                            <div class="tab-pane" id="uri-declarative-tab">
+{% highlight html %}
+{% include validators/uri/declarative-example.html %}
+
+<script>
+{% include validators/uri/declarative-example.js %}
+</script>
+{% endhighlight %}
                             </div>
                         </div>
                     </div>
@@ -220,15 +231,45 @@ related:
                             </div>
 
                             <div class="tab-pane" id="html5-html-tab">
-                            {% highlight html %}
-                            {% include validators/uri/html5-example.html %}
-                            {% endhighlight %}
+{% highlight html %}
+{% include validators/uri/html5-example.html %}
+{% endhighlight %}
                             </div>
 
                             <div class="tab-pane" id="html5-js-tab">
-                            {% highlight javascript %}
-                            {% include validators/uri/html5-example.js %}
-                            {% endhighlight %}
+{% highlight javascript %}
+{% include validators/uri/html5-example.js %}
+{% endhighlight %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3>Using with regexp validator</h3>
+                    <p>The following example is a combination usage of the uri and <a href="/validators/regexp/">regexp</a> validators.</p>
+                    <p>It asks user to enter a valid URL which ends with .jpg, .jpeg, or .png.</p>
+
+                    <div class="doc-demo">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#regexp-form-tab" data-toggle="tab">Try it</a></li>
+                            <li><a href="#regexp-html-tab" data-toggle="tab">HTML</a></li>
+                            <li><a href="#regexp-js-tab" data-toggle="tab">JS</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="regexp-form-tab">
+                            {% include validators/uri/regexp-example.html %}
+                            </div>
+
+                            <div class="tab-pane" id="regexp-html-tab">
+{% highlight html %}
+{% include validators/uri/regexp-example.html %}
+{% endhighlight %}
+                            </div>
+
+                            <div class="tab-pane" id="regexp-js-tab">
+{% highlight javascript %}
+{% include validators/uri/regexp-example.js %}
+{% endhighlight %}
                             </div>
                         </div>
                     </div>
@@ -249,6 +290,7 @@ related:
 <script>
 {% include validators/uri/basic-example.js %}
 {% include validators/uri/html5-example.js %}
+{% include validators/uri/regexp-example.js %}
 $(document).ready(function() {
     $('.sample').on('click', function() {
         $('#uriForm').find('input[name="website"]').val($(this).html());
