@@ -409,7 +409,7 @@ h4 {
 }
 .doc-sellfy-button {
   background-image: url('../img/sellfy-button.png');
-  display: block;
+  display: inline-block;
   width: 162px;
   height: 32px;
 }
