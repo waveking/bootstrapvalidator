@@ -1,7 +1,7 @@
 (function($) {
     /**
      * Czech language package
-     * Translated by @AdwinTrave. Improved by @cuchac
+     * Translated by @AdwinTrave. Improved by @cuchac, @budik21
      */
     $.fn.bootstrapValidator.i18n = $.extend(true, $.fn.bootstrapValidator.i18n, {
         base64: {
@@ -78,8 +78,8 @@
                 AT: 'Rakousko',
                 AZ: 'Ázerbajdžán',
                 BA: 'Bosnu a Herzegovinu',
-                BE: 'Belgie',
-                BF: 'Burkina Faso',
+                BE: 'Belgii',
+                BF: 'Burkinu Faso',
                 BG: 'Bulharsko',
                 BH: 'Bahrajn',
                 BI: 'Burundi',
@@ -106,7 +106,7 @@
                 GI: 'Gibraltar',
                 GL: 'Grónsko',
                 GR: 'Řecko',
-                GT: 'Guatemala',
+                GT: 'Guatemalu',
                 HR: 'Chorvatsko',
                 HU: 'Maďarsko',
                 IE: 'Irsko',
@@ -116,8 +116,8 @@
                 IT: 'Itálii',
                 JO: 'Jordansko',
                 KW: 'Kuwait',
-                KZ: 'Kazakhstán',
-                LB: 'Lebanon',
+                KZ: 'Kazachstán',
+                LB: 'Libanon',
                 LI: 'Lichtenštejnsko',
                 LT: 'Litvu',
                 LU: 'Lucembursko',
@@ -129,7 +129,7 @@
                 MK: 'Makedonii',
                 ML: 'Mali',
                 MR: 'Mauritánii',
-                MT: 'Malta',
+                MT: 'Maltu',
                 MU: 'Mauritius',
                 MZ: 'Mosambik',
                 NL: 'Nizozemsko',
@@ -162,18 +162,18 @@
                 BR: 'Brazílii',
                 CH: 'Švýcarsko',
                 CL: 'Chile',
-                CN: 'Čína',
+                CN: 'Čínu',
                 CZ: 'Českou Republiku',
                 DK: 'Dánsko',
                 EE: 'Estonsko',
-                ES: 'Špaňelsko',
+                ES: 'Španělsko',
                 FI: 'Finsko',
                 HR: 'Chorvatsko',
                 IE: 'Irsko',
                 IS: 'Island',
                 LT: 'Litvu',
                 LV: 'Lotyšsko',
-                ME: 'Montenegro',
+                ME: 'Černou horu',
                 MK: 'Makedonii',
                 NL: 'Nizozemí',
                 RO: 'Rumunsko',
@@ -237,12 +237,12 @@
             country: 'Prosím zadejte správné telefoní číslo pro %s',
             countries: {
                 BR: 'Brazílii',
-                CN: 'Čína',
+                CN: 'Čínu',
                 CZ: 'Českou Republiku',
                 DE: 'Německo',
                 DK: 'Dánsko',
                 ES: 'Španělsko',
-                FR: 'Francie',
+                FR: 'Francii',
                 GB: 'Velkou Británii',
                 MA: 'Maroko',
                 PK: 'Pákistán',
@@ -251,7 +251,7 @@
                 SK: 'Slovensko',
                 TH: 'Thajsko',
                 US: 'Spojené Státy Americké',
-                VE: 'Venezuelský'
+                VE: 'Venezuelu'
             }
         },
         regexp: {
@@ -276,14 +276,14 @@
             'default': 'Prosím zadejte správný krok %s'
         },
         stringCase: {
-            'default': 'Pouze malá písmen jsou povoleny v tomto poli',
+            'default': 'Pouze malá písmena jsou povoleny v tomto poli',
             upper: 'Pouze velké písmena jsou povoleny v tomto poli'
         },
         stringLength: {
             'default': 'Toto pole nesmí být prázdné',
-            less: 'Prosím zadejte méně než %s znaků',
-            more: 'Prosím zadejte více než %s znaků',
-            between: 'Prosím zadejte mezi %s a %s znaky'
+            less: 'Prosím zadejte hodnotu menší než %s znaků',
+            more: 'Prosím zadejte hodnotu delší %s znaků',
+            between: 'Prosím zadejte hodnotu mezi %s a %s znaky'
         },
         uri: {
             'default': 'Prosím zadejte správnou URI'
@@ -307,9 +307,9 @@
                 DE: 'Německo',
                 DK: 'Dánsko',
                 EE: 'Estonsko',
-                ES: 'Špaňelsko',
+                ES: 'Španělsko',
                 FI: 'Finsko',
-                FR: 'Francie',
+                FR: 'Francii',
                 GB: 'Velkou Británii',
                 GR: 'Řecko',
                 EL: 'Řecko',
@@ -317,7 +317,7 @@
                 HR: 'Chorvatsko',
                 IE: 'Irsko',
                 IS: 'Island',
-                IT: 'Itálie',
+                IT: 'Itálii',
                 LT: 'Litvu',
                 LU: 'Lucembursko',
                 LV: 'Lotyšsko',
@@ -332,7 +332,7 @@
                 SE: 'Švédsko',
                 SI: 'Slovinsko',
                 SK: 'Slovensko',
-                VE: 'Venezuelský',
+                VE: 'Venezuelu',
                 ZA: 'Jižní Afriku'
             }
         },
@@ -346,15 +346,15 @@
             countries: {
                 AT: 'Rakousko',
                 BR: 'Brazílie',
-                CA: 'Kanada',
+                CA: 'Kanadu',
                 CH: 'Švýcarsko',
                 CZ: 'Českou Republiku',
                 DE: 'Německo',
                 DK: 'Dánsko',
-                FR: 'Francie',
+                FR: 'Francii',
                 GB: 'Velkou Británii',
                 IE: 'Irsko',
-                IT: 'Itálie',
+                IT: 'Itálii',
                 MA: 'Maroko',
                 NL: 'Nizozemí',
                 PT: 'Portugalsko',
