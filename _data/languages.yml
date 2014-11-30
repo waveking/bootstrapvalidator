@@ -26,6 +26,7 @@
   file:   cs_CZ.js
   author:
     - AdwinTrave
+    - budik21
     - cuchac
 - name:   Danish
   file:   da_DK.js
@@ -37,8 +38,8 @@
   file:   fr_FR.js
   author:
     - dlucazeau
-    - neilime
     - jazzzz
+    - neilime
 - name:   German
   file:   de_DE.js
   author: logemann
@@ -90,6 +91,9 @@
 - name:   Serbian
   file:   sr_RS.js
   author: markocrni
+- name:   Slovak
+  file:   sk_SK.js
+  author: budik21
 - name:   Spanish
   file:   es_ES.js
   author: vadail
