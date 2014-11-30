@@ -201,7 +201,7 @@ h4 {
 .doc-footer ul {
   list-style: none;
 }
-.doc-footer ul li {
+.doc-footer li {
   display: inline-block;
   padding: 0 2px;
 }
@@ -213,9 +213,6 @@ h4 {
 }
 .doc-footer .btn:hover {
   color: #fff;
-}
-.doc-footer i {
-  color: #c0392b;
 }
 /* --- Home --- */
 .doc-center-wrapper {
@@ -631,6 +628,7 @@ h4 {
 }
 /* --- Heart --- */
 .doc-heart {
+  color: #c0392b;
   -webkit-animation: heart-beat 1s linear infinite;
   -moz-animation: heart-beat 1s linear infinite;
   -ms-animation: heart-beat 1s linear infinite;
