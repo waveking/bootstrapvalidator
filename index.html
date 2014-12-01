@@ -87,9 +87,7 @@ permalink: /
                 </p>
 
                 <ul id="contributorList">
-                    {% for user in site.data.contributors %}
-                    <li><a href="https://github.com/{{ user.username }}" title="@{{ user.username }}"><img src="https://github.com/{{ user.username }}.png" width="60px" height="60px" /></a></li>
-                    {% endfor %}
+                    {% for user in site.data.contributors %}<li><a href="https://github.com/{{ user.username }}" title="@{{ user.username }}"><img src="https://github.com/{{ user.username }}.png" width="60px" height="60px" /></a></li>{% endfor %}
                 </ul>
 
                 <a href="{{ site.repository.source }}/network/members" class="btn">Fork and Contribute</a>
