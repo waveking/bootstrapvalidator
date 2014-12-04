@@ -34,6 +34,9 @@
 - name:   Dutch (Netherland)
   file:   nl_NL.js
   author: JvanderHeide
+- name:   Finnish
+  file:   fi_FI.js
+  author: traone
 - name:   French
   file:   fr_FR.js
   author:
